@@ -1,4 +1,5 @@
 const container = document.querySelector('#container');
+const widthHeight = document.querySelector('#widthHeight')
 
 let widthBoxes = 16;
 
@@ -35,19 +36,21 @@ function changeSize() {
         removeAllChildNodes(container);
         widthBoxes --;
         createGrid();
-        console.log(widthBoxes)
+        widthHeight.textContent = widthBoxes + ' x ' + widthBoxes;
     });
 
     defaultButton.addEventListener('click', () => {
         removeAllChildNodes(container);
-        let widthBoxes = 16;
+        widthBoxes = 16;
         createGrid();
+        widthHeight.textContent = widthBoxes + ' x ' + widthBoxes;
     });
 
     largerButton.addEventListener('click', () => {
         removeAllChildNodes(container);
         widthBoxes ++;
         createGrid();
+        widthHeight.textContent = widthBoxes + ' x ' + widthBoxes;
     })
 };
 
