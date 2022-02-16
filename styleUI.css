@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+/* BODY */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+    justify-content: space-between;
+    background-color: #FBEAEB;
+}
+
+/* HEADER */
+
+#header {
+    text-align: center;
+    background-color: #2F3C7E;
+    padding: 10px;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    color: white;
+}
+
+#title {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#author {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* CONTAINER */
+#bodyContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#gridContainer {
+    margin-right: 250px;
+}
+
+#container {
+    width: 480px;
+    height: 480px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    box-shadow: 7px 7px lightgrey;
+}
+
+#widthHeight {
+    text-align: center;
+    font-weight:1000px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+/* BUTTONS */
+
+#gridSize {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#sizes {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#sizes button {
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    margin: 5px;
+    border: 2px solid #2F3C7E;
+    padding: 10px;
+    background-color: #FBEAEB;
+    transition-duration: 0.3s;
+
+}
+
+#sizes button:hover {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 15px;
+    margin: 5px;
+    border: 2px solid #FBEAEB;
+    padding: 10px;
+    background-color: #2F3C7E;
+    transition-duration: 0.3s;
+
+}
+
+#colours {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+}
+
+#colours button {
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    margin: 5px;
+    border: 2px solid #2F3C7E;
+    padding: 10px;
+    background-color: #FBEAEB;
+    transition-duration: 0.3s;
+}
+
+#white:hover {
+    margin: 5px;
+    border: 2px solid #2F3C7E;
+    padding: 10px;
+    background-color: white;
+    transition-duration: 0.3s;
+}
+
+#blue:hover {
+    margin: 5px;
+    border: 2px solid #2F3C7E;
+    color: white;
+    padding: 10px;
+    background-color: blue;
+    transition-duration: 0.3s;
+}
+
+#red:hover {
+    margin: 5px;
+    border: 2px solid #2F3C7E;
+    color: white;
+    padding: 10px;
+    background-color: red;
+    transition-duration: 0.3s;
+}
+
+#green:hover {
+    margin: 5px;
+    border: 2px solid #2F3C7E;
+    color: white;
+    padding: 10px;
+    background-color: green;
+    transition-duration: 0.3s;
+}
+
+
+
+
+/* FOOTER */
+
+#footer {
+    background-color: #2F3C7E;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+}
