@@ -120,7 +120,7 @@ body {
     transition-duration: 0.3s;
 }
 
-#white:hover {
+#white:hover, #white:focus {
     margin: 5px;
     border: 2px solid #2F3C7E;
     padding: 10px;
@@ -128,7 +128,7 @@ body {
     transition-duration: 0.3s;
 }
 
-#blue:hover {
+#blue:hover, #blue:focus {
     margin: 5px;
     border: 2px solid #2F3C7E;
     color: white;
@@ -137,7 +137,7 @@ body {
     transition-duration: 0.3s;
 }
 
-#red:hover {
+#red:hover, #red:focus {
     margin: 5px;
     border: 2px solid #2F3C7E;
     color: white;
@@ -146,7 +146,7 @@ body {
     transition-duration: 0.3s;
 }
 
-#green:hover {
+#green:hover, #green:focus {
     margin: 5px;
     border: 2px solid #2F3C7E;
     color: white;
